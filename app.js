@@ -223,7 +223,10 @@ const numArrays = [
 	[7, 81, 90]
 ];
 
-numList = numArrays[4,3];
+// numList = numArrays[4,3];
+const howManyArrays = numArrays.length;
+numList = numArrays[howManyArrays, howManyArrays - 1];
+
 
 console.log('Exercise 13 result:', numList);
 
